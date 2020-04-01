@@ -1,0 +1,191 @@
+body{
+	margin:0;
+	padding:0;
+	/*background-image:url(./media/img.png);
+	background-position:center;*/
+}
+
+#snowman{
+	margin: 9% 0 0 13%;
+}
+
+#bg-video{
+	position:absolute;
+	min-width:100%;
+	min-height:100%;
+	right: 0;
+	bottom: 0;
+	z-index:-10;
+}
+
+#accessories{
+	display:inline-block;
+	float:right;
+	margin: 2% 10% 0 12%;
+	background: rgba(255,255,255,0.5);
+	border: white 1px solid;
+	height: 88vh;
+	padding:15px;
+	width:21vw;
+}
+
+.parts{
+	height:5rem;
+	width:5rem;
+	padding:10px;
+}
+
+#left-hand{
+	position:absolute;
+	left:8%;
+	top:56%;
+}
+
+#right-hand{
+	position:absolute;
+	left:26%;
+	top:56%;
+}
+
+.head-1{
+	left:238px;
+	top:44px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.head-2{
+	left:197px;
+	top:73px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.head-3{
+	left:265px;
+	top:73px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.collar-1{
+	left:242px;
+	top:274px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.collar-2{
+	left:273px;
+	top:274px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.collar-3{
+	left:243px;
+	top:274px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.eye-1{
+	left:268px;
+	top:159px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.eye-2{
+	left:273px;
+	top:165px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.eye-3{
+	left:274px;
+	top:170px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.nose-1{
+	left:315px;
+	top:204px;
+	position:fixed;
+	height:3rem;
+	width:3rem;
+}
+
+.nose-2{
+	left:312px;
+	top:201px;
+	position:fixed;
+	height:3rem;
+	width:3rem;
+}
+
+.nose-3{
+	left:309px;
+	top:200px;
+	position:fixed;
+	height:3rem;
+	width:3rem;
+}
+
+.mouth-1{
+	left:272px;
+	top:220px;
+	position:fixed;
+	height:4rem;
+	width:4rem;
+}
+
+.mouth-2{
+	left:290px;
+	top:244px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.mouth-3{
+	left:301px;
+	top:227px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+#mouth-3{
+	height:4rem;
+	width:4rem;
+}
+
+.hand-1{
+	left:123px;
+	top:328px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+.hand-2{
+	left:380px;
+	top:319px;
+	position:fixed;
+	height:auto;
+	width:auto;
+}
+
+	

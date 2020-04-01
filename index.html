@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Snow-Man | Game</title>
+	<link rel="shortcut icon" href="./media/shortcut-icon.jpg" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+	<video autoplay muted loop id="bg-video">
+	  <source src="./media/bgvideo.mp4" type="video/mp4">
+	</video>
+    <img src="./media/body.svg" id="snowman" class="body-shape" />
+	<div id="accessories">
+		<div id="cap">
+			<img src="./media/head.svg" id="head-1" class="parts" onclick="head1move()" />
+			<img src="./media/head02.svg" id="head-2" class="parts" onclick="head2move()" />
+			<img src="./media/head03.svg" id="head-3" class="parts" onclick="head3move()" />
+		</div>
+		<div id="neck">
+			<img src="./media/neck03.svg" id="collar-1" class="parts" onclick="collar1move()" />
+			<img src="./media/neck04.svg" id="collar-2" class="parts" onclick="collar2move()" />
+			<img src="./media/neck02.svg" id="collar-3" class="parts" onclick="collar3move()" />
+		</div>
+		<div id="eyes">
+			<img src="./media/eye.svg" id="eye-1" class="parts" onclick="eye1move()" />
+			<img src="./media/eye02.svg" id="eye-2" class="parts" onclick="eye2move()" />
+			<img src="./media/eye03.svg" id="eye-3" class="parts" onclick="eye3move()" />
+		</div>
+		<div id="nose">
+			<img src="./media/nose.svg" id="nose-1" class="parts" onclick="nose1move()" />
+			<img src="./media/nose02.svg" id="nose-2" class="parts" onclick="nose2move()" />
+			<img src="./media/nose03.svg" id="nose-3" class="parts" onclick="nose3move()"/>
+		</div>
+		<div id="mouth">
+			<img src="./media/mouth.svg" id="mouth-1" class="parts" onclick="mouth1move()" />
+			<img src="./media/mouth02.svg" id="mouth-2" class="parts" onclick="mouth2move()" />
+			<img src="./media/mouth03.png" id="mouth-3" class="parts" onclick="mouth3move()" />
+		</div>
+		<div id="hand">
+			<img src="./media/hand-left.svg" id="hand-1" class="parts" onclick="hand1move()" />
+			<img src="./media/hand-right.svg" id="hand-2" class="parts" onclick="hand2move()" />
+		</div>
+	</div>
+	<script src="script.js"></script>
+  </body>
+</html>
